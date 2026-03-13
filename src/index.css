@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --font-bebas: "Bebas Neue", cursive;
+  --font-poppins: "poppins", sans-serif;
+}
+
+:root {
+  --background: #f1f5f9;
+  --foreground: #171717;
+}
+
+.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}
+
+@layer base {
+  html,
+  body {
+    position: relative;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: "Open Sans", sans-serif;
+    transition:
+      background-color 0.3s ease,
+      color 0.3s ease;
+  }
+
+  #root {
+    position: relative;
+  }
+}
+
+@layer utilities {
+  .font-bebas {
+    font-family: var(--font-bebas);
+  }
+
+  .font-poppins {
+    font-family: var(--font-poppins);
+  }
+
+  .line-pointed-soft {
+    clip-path: polygon(
+      50% 0%,
+      70% 10%,
+      100% 20%,
+      100% 80%,
+      70% 90%,
+      50% 100%,
+      30% 90%,
+      0% 80%,
+      0% 20%,
+      30% 10%
+    );
+  }
+}
