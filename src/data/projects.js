@@ -11,7 +11,7 @@ export const projects = [
     category: ["WEB", "BEST"],
     tech: "React · Tailwind · Framer Motion",
     liveUrl: "https://vitalwell-healthcare-demo.vercel.app",
-    githubUrl: "https://github.com/username/vitalwell-healthcare",
+    githubUrl: "https://github.com/MF-Harisz",
   },
   {
     id: 2,
@@ -23,8 +23,8 @@ export const projects = [
     ],
     category: ["WEB", "BEST"],
     tech: "React · Vite · Tailwind · Framer Motion",
-    liveUrl: "https://portfolio-demo.vercel.app",
-    githubUrl: "https://github.com/username/portfolio",
+    liveUrl: "https://personal-portfolio-theta-nine-60.vercel.app/",
+    githubUrl: "https://github.com/MF-Harisz/personal-portfolio",
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ export const projects = [
     category: ["WEB", "BEST"],
     tech: "React · Chart.js · API",
     liveUrl: "https://fitquest-fitness-demo.vercel.app",
-    githubUrl: "https://github.com/username/fitquest-fitness",
+    githubUrl: "https://github.com/MF-Harisz",
   },
   {
     id: 4,
@@ -51,7 +51,7 @@ export const projects = [
     category: ["UI/UX", "BEST"],
     tech: "Next.js · Stripe · UI/UX",
     liveUrl: "https://ecommerce-ui-demo.vercel.app",
-    githubUrl: "https://github.com/username/ecommerce-ui",
+    githubUrl: "https://github.com/MF-Harisz",
   },
   {
     id: 5,
@@ -91,7 +91,7 @@ export const projects = [
     category: ["WEB"],
     tech: "HTML · Tailwind · GSAP",
     liveUrl: "https://corporate-redesign.vercel.app",
-    githubUrl: "https://github.com/username/corporate-redesign",
+    githubUrl: "https://github.com/MF-Harisz",
   },
   {
     id: 8,
@@ -118,7 +118,7 @@ export const projects = [
     category: ["WEB"],
     tech: "React · Tailwind · Motion",
     liveUrl: "https://saas-landing-demo.vercel.app",
-    githubUrl: "https://github.com/username/saas-landing",
+    githubUrl: "https://github.com/MF-Harisz",
   },
   {
     id: 10,
